@@ -1,6 +1,9 @@
+/* Cuerpo */
 body{
     background-color: #01031f;
 }
+
+/* Botones */
 .btn-login {
     background-color: #c76b02;
     color: rgb(0, 0, 0);
@@ -15,8 +18,7 @@ body{
     box-shadow: 0 5px 15px #c76b02;
 }
 
-/* Color de texto */
-
+/* Texto */
 h3{
     color: #c76b02;
 }
