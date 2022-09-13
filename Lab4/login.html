@@ -1,0 +1,43 @@
+<script>
+    var email = null;
+    var password = null;
+
+        //submit
+        function sub(){
+            email = document.getElementById("login-email").value;
+            password = document.getElementById("login-password").value;
+            console.log("El email es: "+email+" / El password es: "+password);
+            document.getElementById("login-password").value = "";
+        };
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style-login.css">
+    </head>
+    <body>
+        <h3>Login</h3>
+        <form>
+            <!-- Imput y label -->
+            <div>
+                <label for="login-email">Email:</label>
+                <input id="login-email" type="text" placeholder="Insert your email">
+            </div>
+            <div>
+                <label for="login-password">Password:</label>
+                <input id="login-password" type="password" placeholder="Insert your password">
+            </div>
+            <!-- Botones -->
+            <p>
+                <div>
+                    <button type="button" onclick="sub()" class="btn-login">Login</button>
+                    <a class="btn-volver" href="index.html" target="_self">Volver</a>
+                </div>
+            </p>
+        </form>
+    </body>
+</html>
