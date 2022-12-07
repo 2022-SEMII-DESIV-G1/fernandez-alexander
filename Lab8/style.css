@@ -1,0 +1,56 @@
+#background {
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+  }
+  #box {
+    line-height: 50px;
+    position: absolute;
+    width: 551px;
+    height: 380px;
+    left: 161px;
+    top: 156px;
+    background-color: rgb(16, 51, 94);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5%;
+  }
+  .title {
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .instruction {
+    text-align: justify;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  #text {
+    text-align: center;
+  }
+  #boton {
+    color: white;
+    background-color: #0085ff;
+    position: absolute;
+    padding: 0px;
+    width: 142px;
+    height: 41px;
+    border-radius: 5px;
+  }
+  #boton2 {
+    color: white;
+    background-color: #ff0000;
+    padding: 0px;
+    width: 142px;
+    height: 41px;
+    border-radius: 5px;
+  }
+  #resultado {
+    background-color: white;
+    color: black;
+    display: grid;
+    align-content: center;
+    justify-content: left;
+    border-radius: 5%;
+  }
